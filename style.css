@@ -1,0 +1,530 @@
+
+.body {
+font-family: 'Lato', sans-serif;
+}
+
+/* home */
+.navbar-dark {
+  background-color:#636363;
+  font-family: 'Lato', sans-serif;
+color: white;
+  padding: 0.5rem 1rem;
+
+}
+
+.nav-item {
+  color:#ffdab9;
+    font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  padding: 0rem 1rem;
+
+
+}
+.navbar-brand {
+  font-size:2rem;
+  font-weight: bold;
+  color:white;
+}
+
+@media (max-width:992px) {
+
+  .welcome {
+    order:0;
+  }
+  .navbar-toggler {
+    order:1;
+    margin-left:15px;
+    margin-right:0;
+  }
+
+  .navbar > .collapse {
+    margin-top:2rem;
+  }
+
+}
+
+/* row 1 */
+
+
+.hometitle {
+  padding-top: 2.7rem;
+  padding-left: 3rem;
+  padding-right: 2rem;
+  height: 35rem;
+  min-width: 24rem;
+  margin-top: 0;
+}
+
+
+.food {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5rem;
+  color:#ffdab9 ;
+}
+
+.quest {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  color: #ffdab9;
+}
+
+
+
+.img-fluid {
+  max-width: 100%;
+  height: 510px;
+  background-size: cover;
+ display: block;
+  position:relative;
+}
+
+
+
+/* row 2 */
+.homer2 {
+  padding-right:1.2rem;
+  margin-top: 1.3rem;
+  margin-bottom: 0rem;
+  min-height: 1rem;
+}
+
+.homec2 {
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+}
+
+.fa-5x {
+  color: 	#bc8f8f;
+}
+
+.des {
+  font-weight: bold;
+  line-height: 2;
+  color:solid grey;
+}
+.welcome {
+  color: #ffda69;
+  font-size: 1rem;
+  padding:1rem;
+  margin-left: auto;
+}
+
+
+/*aboutus*/
+
+/* close home */
+
+.center {
+  text-align: center;
+}
+
+
+
+
+
+
+
+/* close home */
+
+.center {
+  text-align: center;
+}
+
+
+
+
+/*navbar*/
+
+.navbar-dark {
+  background-color: #636363;
+  font-family: 'Lato', sans-serif;
+  padding: 0.5rem 1rem;
+
+}
+
+.nav-item {
+  font-family: 'Lato', sans-serif;
+  color:#ffdab9;
+  font-size: 1.5rem;
+  padding: 0rem 1rem;
+
+
+}
+.navbar-brand {
+  font-family: 'Lato', sans-serif;
+  font-size:2rem;
+  font-weight: bold;
+  color:white;
+}
+
+
+.food {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  	color:#ffdab9;
+
+}
+
+.quest {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  	color:#ffdab9;
+}
+/*menurow1*/
+
+.menur1 {
+  min-height: 30rem;
+  margin: 0;
+  background-image: url("bg4.jpg");
+  background-size: auto 30rem;
+  background-position: right;
+}
+
+.menutitle {
+  padding-left: 6rem;
+  padding-top: 6rem;
+  padding-right: 37rem;
+  line-height: 3;
+}
+
+.menutitlehead {
+  margin: 0;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.menutitledesc {
+  font-size: 1rem;
+}
+ .btnmenu
+ {
+   margin-left:25rem;
+   color:black;
+   background-color: white;
+ }
+
+/* menu row 2 */
+.menur2 {
+  margin-left: 1.5rem;
+}
+
+.col {
+  margin-top:4rem;
+}
+
+
+
+
+
+.value {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+/* menu row 3 */
+.menur3 {
+  margin: 4rem 2rem;
+}
+
+.menucatr1, .menucatrow2, .menucatrow3 {
+  padding: 2rem 0rem;
+  margin: auto;
+}
+
+.menutitlehb, .menutitlesi, .menutitleni, .menutitlede {
+  font-size: 2.5rem;
+  font-weight: bolder;
+
+  margin: 2rem auto;
+  margin-top: 0rem;
+  color: #222;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #22222290;
+}
+
+.menucontent {
+  font-family: 'Lato', sans-serif;
+}
+
+.menunrowname {
+  padding: 2rem;
+  border-bottom: 1px solid #00000050;
+}
+
+.menuname {
+  font-size: 1.3rem;
+}
+
+.menuamt {
+  color: #00000080;
+}
+
+.menuaddbtnhb, .menuaddbtnsi, .menuaddbtnni, .menuaddbtnde {
+  padding: 0.3rem 1.7rem;
+  background-color: #ff9999;
+  color: #fff;
+  border: 1px #ff9999;
+  border-radius: 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.menuaddbtnhb, .menuaddbtnsi:focus,  .menuaddbtnni:focus, .menuaddbtnde:focus {
+  background-color: #ff9999;
+  color: black;
+  border: 1px #ff9999;
+  box-shadow: 0 0 0 0rem #fff;
+}
+
+.menuaddbtnhb, .menuaddbtnsi:active:focus, .menuaddbtnni:active:focus, .menuaddbtnde:active:focus {
+  box-shadow: 0 0 0 0.25rem #cEe5d0;
+  text-align: center;
+}
+
+.menuaddbtnhb, .menuaddbtnsi:hover, .menuaddbtnni:hover, .menuaddbtnde:hover {
+  background-color: #ff9999;
+  border: 1px #ff9999;
+  box-shadow: 0 0 0 0rem #fff;
+}
+
+.modalqtybody {
+  padding: 2rem;
+  text-align: center;
+  line-height: 3;
+}
+
+.menuqtyno {
+  width: 100%;
+  padding-left: 1rem;
+  margin: auto;
+}
+
+.menucarthead {
+  padding: 1rem 0;
+}
+
+.menucart {
+  padding-left: 0.5rem;
+  background-color: #222;
+  color: white;
+  margin: 5rem 0rem;
+  margin-top: 11rem;
+}
+
+
+.menucartr {
+  padding: 1rem;
+}
+
+.menucartfooter {
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+
+.menucheckout {
+  padding: 1rem 1rem;
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 100%;
+  width:100%;
+}
+
+.menucheckout:focus {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #fff;
+  box-shadow: 0 0 0 0rem #222;
+}
+
+.menucheckout:active:focus {
+  box-shadow: 0 0 0 0.25rem #ffffff90;
+  text-align: center;
+}
+
+.menucheckout:hover {
+  color:#ffffff80;
+  background-color: #222;
+  border: 1px solid #ffffff80;
+  box-shadow: 0 0 0 0rem #222;
+}
+
+.fa-trash-alt {
+  padding-top:15%;
+  padding-left: 50%;
+}
+
+.fa-trash-alt:hover, .trash:hover {
+  color: #ffffff80;
+}
+
+/* end of menu */
+
+/* cart */
+
+.cart {
+  font-family: 'Lato', sans-serif;
+  margin: auto;
+  padding:5rem;
+  color: #222;
+  margin: 1rem 5rem;
+  margin-top: 0;
+}
+
+.carthead {
+  padding: 2rem;
+  margin-bottom: 4rem;
+  border-bottom: 4px solid green;
+  line-height: 3;
+}
+
+.cartrow {
+  padding: 3rem 5rem;
+  border-bottom: 1px solid #ffffff50;
+  background-color: #222;
+  color: #fff;
+}
+
+.cartdetails {
+  padding: 2rem;
+  margin-top: 4rem;
+}
+
+.name, .phone, .address {
+  padding:1rem 3rem;
+  text-align: center;
+}
+
+.nameip, .phoneip, .addressip {
+  padding:1.5rem;
+}
+
+.nameip:focus, .phoneip:focus, .addressip:focus {
+  box-shadow: 0 0 0 0.25rem #55ff5550;
+}
+
+.cartname {
+  font-size: 1.3rem;
+}
+
+.cartprice {
+}
+
+.cartqty {
+}
+
+.cartfoot {
+  margin:2rem 3rem;
+  padding: 1rem;
+}
+
+.checkout {
+  padding: 1.5rem 1.7rem;
+  background-color: green;
+  color: #fff;
+  border: 1px solid green;
+  border-radius: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.checkout:focus {
+  background-color: green;
+  color: #fff;
+  border: 1px solid green;
+  box-shadow: 0 0 0 0rem #fff;
+}
+
+.checkout:active:focus {
+  box-shadow: 0 0 0 0.25rem #00660020;
+  text-align: center;
+}
+
+.checkout:hover {
+  color:#fff;
+  background-color: #050;
+  border: 1px solid #050;
+  box-shadow: 0 0 0 0rem #fff;
+}
+
+.carttrash {
+  color: #ffffff50;
+}
+
+.carttrash:hover {
+  color: #a00;
+}
+
+.total {
+  margin-top:auto;
+  margin-bottom:auto;
+  text-align:right;
+}
+
+.orderdetails {
+  margin-top: 2rem;
+  padding: 3rem 1rem;
+  font-size: 1.6rem;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  background-color: #ff9999;
+}
+
+.orderedfood {
+  padding:2rem;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+
+.goback {
+  text-align:center;
+  padding-top:2rem;
+  color: #ffffff90;
+}
+
+.goback:hover {
+  color: #ffffff50;
+}
+
+
+@media screen and (max-width:996px) {
+  .checkout {
+    padding: 1.5rem 1.5rem;
+}
+
+@media screen and (max-width:822px)
+{
+  .cart {
+    margin: 1rem 2rem;
+  }
+  .carthead {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:688px)
+{
+  .cart {
+    margin: 1rem 0rem;
+    padding:3rem;
+  }
+}
+
+@media screen and (max-width:570px)
+{
+
+  .cart {
+    margin: 5rem 0rem;
+    padding:0rem;
+}
+}

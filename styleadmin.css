@@ -1,0 +1,100 @@
+.body {
+font-family: 'Lato', sans-serif;
+}
+
+
+.navbar-dark {
+  background-color:#636363;
+  font-family: 'Lato', sans-serif;
+color: white;
+  padding: 0.5rem 1rem;
+
+}
+
+.nav-item {
+  color:#ffdab9;
+    font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  padding: 0rem 1rem;
+
+
+}
+.navbar-brand {
+  font-size:2rem;
+  font-weight: bold;
+  color:white;
+}
+
+.food {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5rem;
+  color:#ffdab9 ;
+}
+
+.quest {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  color: #ffdab9;
+}
+
+.welcome {
+  color: #ffda69;
+  font-size: 1rem;
+  padding:1rem;
+  margin-left: auto;
+}
+
+@media (max-width:992px) {
+
+  .welcome {
+    order:0;
+  }
+  .navbar-toggler {
+    order:1;
+    margin-left:15px;
+    margin-right:0;
+  }
+
+  .navbar > .collapse {
+    margin-top:2rem;
+  }
+
+}
+
+.customerbody {
+	padding:4rem 26rem;
+	font-family: 'Lato', sans-serif;
+	text-align:center;
+
+}
+
+table {
+	background-color: #f5f5dc;
+
+}
+
+.table-bordered {
+  border:3px solid #d2691e ;
+}
+
+.tr {
+	padding:1rem;
+	font-weight: bold;
+	font-size:1.5rem;
+}
+
+.td {
+  font-weight: bold;
+}
+
+@media screen and (max-width:1200px) {
+	.customerbody {
+		padding:8rem 5rem;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.customerbody {
+		padding:8rem 2rem;
+	}
+}
